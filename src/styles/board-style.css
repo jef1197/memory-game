@@ -1,0 +1,33 @@
+.gameBoard {
+width: 80%;
+/* padding: 0 50px; */
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+color: darkslategrey;
+margin: 50px auto 20px auto;
+}
+
+section{ 
+    text-align: center;
+}
+
+.card {
+    width: 250px;
+    height: 250px;
+    margin: 10px 10px;
+}
+
+header {
+    height: 100px;
+    padding: 20px;
+    text-align: center;
+}
+
+.scores {
+    width: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
